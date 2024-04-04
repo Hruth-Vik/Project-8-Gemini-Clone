@@ -20,15 +20,15 @@ const Main = () => {
                     </div>
                     <div className="card">
                         <p>Lorem ipsum dolor sit amet.</p>
-                        <img src={assets.compass_icon} alt="" />
+                        <img src={assets.bulb_icon} alt="" />
                     </div>
                     <div className="card">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <img src={assets.compass_icon} alt="" />
+                        <img src={assets.message_icon} alt="" />
                     </div>
                     <div className="card">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, beatae!</p>
-                        <img src={assets.compass_icon} alt="" />
+                        <img src={assets.code_icon} alt="" />
                     </div>
                 </div>
             </div>
