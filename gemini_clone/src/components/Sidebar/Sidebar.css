@@ -6,6 +6,12 @@
     background-color: #f0f4f9;
     padding: 25px 15px;
 }
+/* .sidebar .active{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+} */
 
 .sidebar img{
     width: 20px;
