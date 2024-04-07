@@ -38,6 +38,7 @@
     -webkit-text-fill-color: transparent;
 }
 
+
 .main .cards{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
@@ -91,5 +92,28 @@
 }
 .search-box img{
     width: 24px;
-    
+    cursor: pointer;
 }
+.search-box input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.main .bottom-info{
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+}
+

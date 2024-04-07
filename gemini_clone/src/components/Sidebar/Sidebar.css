@@ -5,13 +5,8 @@
     justify-content: space-between;
     background-color: #f0f4f9;
     padding: 25px 15px;
+    transition-timing-function: 1ms smooth ease-out;
 }
-/* .sidebar .active{
-    display: none;
-    align-items: center;
-    justify-content: center;
-
-} */
 
 .sidebar img{
     width: 20px;
