@@ -2,7 +2,8 @@ import React, { useContext } from 'react'
 import "./Main.css";
 import { assets } from '../../assets/assets';
 import { Context } from '../../context/Context';
-
+import Stack from '@mui/material/Stack';
+import LinearProgress from '@mui/material/LinearProgress';
 
 const Main = () => {
     const { onSent, recentPrompt, showResult, loading, resultData, setInput, input } = useContext(Context);
@@ -47,6 +48,20 @@ const Main = () => {
                         </div>
                         <div className='result-data'>
                             <img src={assets.gemini_icon} alt="" />
+                            {loading ?
+                                <div className='loader'>
+                                    <Stack sx={{ width: '100%', color: 'grey.500', }} spacing={2}>
+                                        <LinearProgress color="secondary" />
+                                        <LinearProgress color="success" />
+                                        <LinearProgress color="inherit" />
+                                    </Stack>
+                                </div>
+                                :
+                                <p>
+
+                                </p>
+                            }
+
                             <p>{resultData}</p>
                         </div>
                     </div>
